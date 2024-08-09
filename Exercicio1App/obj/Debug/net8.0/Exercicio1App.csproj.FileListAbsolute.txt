@@ -1,0 +1,15 @@
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\bin\Debug\net8.0\Exercicio1App.exe
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\bin\Debug\net8.0\Exercicio1App.deps.json
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\bin\Debug\net8.0\Exercicio1App.runtimeconfig.json
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\bin\Debug\net8.0\Exercicio1App.dll
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\bin\Debug\net8.0\Exercicio1App.pdb
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\obj\Debug\net8.0\Exercicio1App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\obj\Debug\net8.0\Exercicio1App.AssemblyInfoInputs.cache
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\obj\Debug\net8.0\Exercicio1App.AssemblyInfo.cs
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\obj\Debug\net8.0\Exercicio1App.csproj.CoreCompileInputs.cache
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\obj\Debug\net8.0\Exercicio1App.sourcelink.json
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\obj\Debug\net8.0\Exercicio1App.dll
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\obj\Debug\net8.0\refint\Exercicio1App.dll
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\obj\Debug\net8.0\Exercicio1App.pdb
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\obj\Debug\net8.0\Exercicio1App.genruntimeconfig.cache
+C:\Users\32784630803\Desktop\Logica-de-Programacao-Pratica\Exercicio1App\obj\Debug\net8.0\ref\Exercicio1App.dll
