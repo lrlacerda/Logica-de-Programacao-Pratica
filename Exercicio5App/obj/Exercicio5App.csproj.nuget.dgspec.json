@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\32784630803\\Desktop\\Revisão Senai\\Exercicio5App\\Exercicio5App.csproj": {}
+    "C:\\Users\\32784630803\\Desktop\\Logica-de-Programacao-Pratica\\Exercicio5App\\Exercicio5App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\32784630803\\Desktop\\Revisão Senai\\Exercicio5App\\Exercicio5App.csproj": {
+    "C:\\Users\\32784630803\\Desktop\\Logica-de-Programacao-Pratica\\Exercicio5App\\Exercicio5App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\32784630803\\Desktop\\Revisão Senai\\Exercicio5App\\Exercicio5App.csproj",
+        "projectUniqueName": "C:\\Users\\32784630803\\Desktop\\Logica-de-Programacao-Pratica\\Exercicio5App\\Exercicio5App.csproj",
         "projectName": "Exercicio5App",
-        "projectPath": "C:\\Users\\32784630803\\Desktop\\Revisão Senai\\Exercicio5App\\Exercicio5App.csproj",
+        "projectPath": "C:\\Users\\32784630803\\Desktop\\Logica-de-Programacao-Pratica\\Exercicio5App\\Exercicio5App.csproj",
         "packagesPath": "C:\\Users\\32784630803\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\32784630803\\Desktop\\Revisão Senai\\Exercicio5App\\obj\\",
+        "outputPath": "C:\\Users\\32784630803\\Desktop\\Logica-de-Programacao-Pratica\\Exercicio5App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\32784630803\\AppData\\Roaming\\NuGet\\NuGet.Config",
