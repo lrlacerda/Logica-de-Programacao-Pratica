@@ -14,7 +14,18 @@ header {
   background-color: #0056b3;
   color: #fff;
   padding: 10px 0;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
@@ -24,10 +35,11 @@ header h1 {
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 nav ul li {
-  display: inline;
   margin: 0 10px;
 }
 
@@ -42,57 +54,57 @@ nav ul li a.btn {
   border-radius: 5px;
 }
 
-/* Estilo da seção hero */
 .hero {
-    background-color: #003366;
-    color: #fff;
-    padding: 50px 0;
-    position: relative;
+  background-color: #003366;
+  color: #fff;
+  padding: 50px 0;
+  position: relative;
 }
 
 .hero .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-text {
-    max-width: 60%;
+  max-width: 60%;
+  position: relative;
 }
 
 .hero-image {
-    max-width: 35%;
+  max-width: 35%;
 }
 
 .hero-image img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-    .hero .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-text, .hero-image {
-        max-width: 100%;
-    }
-
-    .hero-image {
-        margin-top: 20px;
-    }
+.search-box {
+  position: absolute;
+  top: 220px;
+  left: 80%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 100%;
+  width: 900px;
 }
-
 
 .search-box input[type="text"],
 .search-box input[type="date"] {
   padding: 10px;
-  margin: 5px;
   border-radius: 5px;
-  border: none;
-  width: 200px;
+  border: 1px solid #ddd;
+  flex: 1;
+  margin: 0;
+  min-width: 100px;
 }
 
 .search-box button {
@@ -102,68 +114,164 @@ nav ul li a.btn {
   background-color: #28a745;
   color: #fff;
   cursor: pointer;
-}
-
-/* Estilo da seção locations */
-.locations {
-    background-color: #fff;
-    padding: 40px 0;
-}
-
-/* Estilo dos cartões */
-.location-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    overflow: hidden;
-}
-
-.location-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.location-card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.location-card p {
-    font-size: 1rem;
-    color: #666;
-}
-
-/* Grid para dispor os cartões */
-.locations .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* duas colunas */
-    gap: 20px; /* espaçamento entre os itens */
+  flex-shrink: 0; /* Impede que o botão encolha */
 }
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
-    .locations .container {
-        grid-template-columns: 1fr; /* em telas menores, as colunas ficam uma embaixo da outra */
-    }
+  .hero .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text,
+  .hero-image {
+    max-width: 100%;
+  }
+
+  .hero-image {
+    margin-top: 20px;
+  }
+}
+
+.search-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-box input[type="text"],
+.search-box input[type="date"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  flex: 1;
+  max-width: 200px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0; /* Impede que o botão encolha */
+}
+
+/* Estilo da seção locations */
+.locations {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+/* Estilo dos cartões */
+.location-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  width: calc(25% - 20px);
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+/* Tamanho fixo para as imagens dos cards */
+.location-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Grid para dispor os cartões */
+.locations .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .location-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .location-card {
+    width: 100%;
+  }
 }
 
 .promo {
-  background-color: #e8e8e8;
+  background-color: #fff;
   padding: 40px 0;
-  text-align: center;
 }
 
-.promo h2 {
-  color: #0056b3;
+.promo .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.promo span {
+.promo-text h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-right: 250px;
+  line-height: 1.5;
+}
+
+.promo-text h2 span {
   color: #28a745;
+}
+
+.promo-text h2 span:nth-of-type(2) {
+  color: #28a745;
+}
+
+.promo-text p {
+  color: #555;
+  font-size: 1.2rem;
+  margin-right: 400px;
+  line-height: 1.5;
+}
+
+.promo-text p strong {
+  color: #28a745;
+}
+
+.promo-text p .highlight {
+  color: rgb(232, 232, 26);
+  font-weight: bold;
+}
+
+.promo-image img {
+  width: 25rem;
+  height: auto;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .promo .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .promo-text,
+  .promo-image {
+    max-width: 100%;
+  }
+
+  .promo-image {
+    margin-top: 20px;
+  }
 }
 
 footer {
@@ -171,4 +279,12 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px 0;
+}
+
+.footer-site {
+  background-color: #f1c40f;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
 }
