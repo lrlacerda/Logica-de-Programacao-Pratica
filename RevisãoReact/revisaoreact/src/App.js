@@ -3,26 +3,41 @@ import TaskList from "./Components/TaskList";
 import TaskModal from "./Components/TaskModal";
 import "./App.css";
 
-// Função para formatar a data como "Terça-Feira, 24 de Julho"
+// Função para formatar a data
 function formatDate(date) {
   const daysOfWeek = [
-    'Domingo', 'Segunda-Feira', 'Terça-Feira', 'Quarta-Feira',
-    'Quinta-Feira', 'Sexta-Feira', 'Sábado'
+    "Domingo",
+    "Segunda-Feira",
+    "Terça-Feira",
+    "Quarta-Feira",
+    "Quinta-Feira",
+    "Sexta-Feira",
+    "Sábado",
   ];
 
   const months = [
-    'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
-    'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'
+    "Janeiro",
+    "Fevereiro",
+    "Março",
+    "Abril",
+    "Maio",
+    "Junho",
+    "Julho",
+    "Agosto",
+    "Setembro",
+    "Outubro",
+    "Novembro",
+    "Dezembro",
   ];
 
   const day = daysOfWeek[date.getDay()];
   const month = months[date.getMonth()];
   const dayNumber = date.getDate();
-  
+
   return {
     dayOfWeek: day,
     dayNumber: dayNumber,
-    month: month
+    month: month,
   };
 }
 
@@ -30,6 +45,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentTask, setCurrentTask] = useState(null);
+  const [searchText, setSearchText] = useState("");
 
   const handleAddTask = (task) => {
     setTasks([...tasks, task]);
@@ -47,10 +63,23 @@ function App() {
     setTasks(tasks.filter((task) => task.id !== taskId));
   };
 
+  const handleTaskCompleted = (taskId) => {
+    setTasks(
+      tasks.map((task) =>
+        task.id === taskId ? { ...task, completed: !task.completed } : task
+      )
+    );
+  };
+
   const openModal = (task) => {
     setCurrentTask(task);
     setIsModalOpen(true);
   };
+
+  // Função para filtrar as tarefas com base no texto da pesquisa
+  const filteredTasks = tasks.filter((task) =>
+    task.description.toLowerCase().includes(searchText.toLowerCase())
+  );
 
   const today = new Date();
   const { dayOfWeek, dayNumber, month } = formatDate(today);
@@ -60,8 +89,21 @@ function App() {
       <h1>
         {dayOfWeek}, <span className="day-number">{dayNumber}</span> de {month}
       </h1>
-     
-      <TaskList tasks={tasks} onEdit={openModal} onDelete={handleDeleteTask} />
+
+      <input
+        type="text"
+        placeholder="Procurar tarefa"
+        value={searchText}
+        onChange={(e) => setSearchText(e.target.value)}
+        className="search-bar"
+      />
+
+      <TaskList
+        tasks={filteredTasks}
+        onEdit={openModal}
+        onDelete={handleDeleteTask}
+        onTaskCompleted={handleTaskCompleted}
+      />
       <button className="new-task-button" onClick={() => openModal(null)}>
         Nova tarefa
       </button>
