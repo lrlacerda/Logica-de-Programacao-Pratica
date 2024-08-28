@@ -4,38 +4,62 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLAKf-Q3GXsBwtS0ih_z-1" target="PLAKf-Q3GXsBwtS0ih_z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLAKf-Q3GXsBwtS0ih_z-1" target="PLAKf-Q3GXsBwtS0ih_z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLAKf-Q3GXsBwtS0ih_z-1" target="PLAKf-Q3GXsBwtS0ih_z-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Cliente&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="40" height="90" as="geometry" />
+          <mxGeometry x="40" y="40" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLAKf-Q3GXsBwtS0ih_z-3" target="PLAKf-Q3GXsBwtS0ih_z-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLAKf-Q3GXsBwtS0ih_z-3" target="PLAKf-Q3GXsBwtS0ih_z-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLAKf-Q3GXsBwtS0ih_z-3" target="PLAKf-Q3GXsBwtS0ih_z-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Restaurante&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="230" width="40" height="90" as="geometry" />
+          <mxGeometry x="1170" y="40" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLAKf-Q3GXsBwtS0ih_z-4" target="PLAKf-Q3GXsBwtS0ih_z-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Entregador&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="380" width="40" height="90" as="geometry" />
+          <mxGeometry x="1170" y="585" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PLAKf-Q3GXsBwtS0ih_z-5" target="PLAKf-Q3GXsBwtS0ih_z-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Administrador&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="540" width="40" height="90" as="geometry" />
+          <mxGeometry x="40" y="585" width="40" height="90" as="geometry" />
         </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Cadastrar-se&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="85" width="200" height="105" as="geometry" />
+          <mxGeometry x="500" y="60" width="200" height="105" as="geometry" />
         </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Fazer Pedido&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="222.5" width="200" height="105" as="geometry" />
+          <mxGeometry x="350" y="230" width="200" height="105" as="geometry" />
         </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Acompanhar Pedido&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="370" width="200" height="105" as="geometry" />
+          <mxGeometry x="350" y="400" width="200" height="105" as="geometry" />
         </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Gerenciar Menu&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="200" y="520" width="200" height="105" as="geometry" />
+          <mxGeometry x="640" y="230" width="200" height="105" as="geometry" />
         </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Processar Pedido&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="550" y="85" width="200" height="105" as="geometry" />
+          <mxGeometry x="640" y="400" width="200" height="105" as="geometry" />
         </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Entregar Pedido&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="550" y="240" width="200" height="105" as="geometry" />
+          <mxGeometry x="640" y="595" width="200" height="105" as="geometry" />
         </mxCell>
         <mxCell id="PLAKf-Q3GXsBwtS0ih_z-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Gerenciar Usuários&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="550" y="390" width="200" height="105" as="geometry" />
+          <mxGeometry x="290" y="595" width="200" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
