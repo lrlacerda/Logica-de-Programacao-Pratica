@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="Página-1" id="RDGvJ0hcRf0x_dRe7D0J">
-    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QK64HbulK69qqqGr5SrO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-VAmXr-TnTNXJPBc4ezO-2" target="-VAmXr-TnTNXJPBc4ezO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Clientes&lt;/font&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="50" width="180" height="180" as="geometry" />
         </mxCell>
@@ -73,7 +76,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Pedidos&lt;/font&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="50" width="180" height="180" as="geometry" />
+          <mxGeometry x="323.5" y="160" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="-VAmXr-TnTNXJPBc4ezO-14" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -141,7 +144,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Restaurantes&lt;/font&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="324" y="50" width="180" height="120" as="geometry" />
+          <mxGeometry x="420" y="500" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="-VAmXr-TnTNXJPBc4ezO-27" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -183,7 +186,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-40" value="Entregadores" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="323.5" y="390" width="180" height="120" as="geometry" />
+          <mxGeometry x="310" y="680" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="-VAmXr-TnTNXJPBc4ezO-40" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -225,7 +228,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-53" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ItensMenu&lt;/font&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="390" width="180" height="180" as="geometry" />
+          <mxGeometry x="40" y="585" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="-VAmXr-TnTNXJPBc4ezO-53" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -293,7 +296,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-66" value="ItensPedido" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="400" width="180" height="120" as="geometry" />
+          <mxGeometry x="580" y="700" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="-VAmXr-TnTNXJPBc4ezO-70" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="-VAmXr-TnTNXJPBc4ezO-66" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
