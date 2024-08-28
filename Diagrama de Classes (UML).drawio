@@ -76,6 +76,18 @@
         <mxCell id="mvEV2K7xjus6Djp_tHI3-24" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;strong&gt;Métodos&lt;/strong&gt;: adicionarAoPedido()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mvEV2K7xjus6Djp_tHI3-21">
           <mxGeometry y="60" width="270" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="mvEV2K7xjus6Djp_tHI3-25" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="264.5" as="sourcePoint" />
+            <mxPoint x="480" y="264.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mvEV2K7xjus6Djp_tHI3-26" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750" y="264.5" as="sourcePoint" />
+            <mxPoint x="910" y="264.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
