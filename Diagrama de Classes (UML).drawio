@@ -64,16 +64,16 @@
         <mxCell id="mvEV2K7xjus6Djp_tHI3-20" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;strong&gt;Métodos&lt;/strong&gt;: visualizarPedidos(), confirmarEntrega()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mvEV2K7xjus6Djp_tHI3-17">
           <mxGeometry y="60" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mvEV2K7xjus6Djp_tHI3-21" value="ItemMenu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mvEV2K7xjus6Djp_tHI3-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ItemMenu&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="720" width="270" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="mvEV2K7xjus6Djp_tHI3-22" value="&lt;strong&gt;Atributos&lt;/strong&gt;: nome, descrição, preço" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mvEV2K7xjus6Djp_tHI3-21">
+        <mxCell id="mvEV2K7xjus6Djp_tHI3-22" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;strong&gt;Atributos&lt;/strong&gt;: nome, descrição, preço&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mvEV2K7xjus6Djp_tHI3-21">
           <mxGeometry y="26" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mvEV2K7xjus6Djp_tHI3-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mvEV2K7xjus6Djp_tHI3-21">
           <mxGeometry y="52" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="mvEV2K7xjus6Djp_tHI3-24" value="&lt;strong&gt;Métodos&lt;/strong&gt;: adicionarAoPedido()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mvEV2K7xjus6Djp_tHI3-21">
+        <mxCell id="mvEV2K7xjus6Djp_tHI3-24" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;strong&gt;Métodos&lt;/strong&gt;: adicionarAoPedido()&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mvEV2K7xjus6Djp_tHI3-21">
           <mxGeometry y="60" width="270" height="26" as="geometry" />
         </mxCell>
       </root>
