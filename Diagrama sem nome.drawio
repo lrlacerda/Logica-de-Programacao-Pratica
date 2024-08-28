@@ -1,9 +1,21 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="Página-1" id="Ni4LJ-_mFx-4MyYVs0aM">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Cliente&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Restaurante&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Entregador&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PLAKf-Q3GXsBwtS0ih_z-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Administrador&lt;/b&gt;&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="40" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
